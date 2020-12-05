@@ -1,3 +1,51 @@
 body {
-	font-family: 'Helvetica Neue', arial, sans-serif;
+  font-family: "Helvetica Neue", arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 0.5rem;
+}
+img {
+  display: none;
+}
+span.embed-youtube {
+  display: none !important;
+}
+
+div.interactive-container {
+  display: none;
+}
+
+.full-container {
+  display: block;
+  margin-left: 25px;
+  width: 75%;
+}
+.post-content {
+  text-align: justify;
+}
+
+.full-version-link {
+  margin-left: 15px;
+}
+
+.button:link,
+.button:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button:hover,
+.button:active {
+  background-color: black;
+  color: white;
 }
